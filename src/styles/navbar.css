@@ -1,0 +1,75 @@
+.nav-main-container {
+  background: #232234;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+.nav-logo-container {
+  display: flex;
+  align-items: center;
+}
+.nav-logo-container h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: -0.312463px;
+
+  color: #ffffff;
+
+  opacity: 0.65;
+  text-transform: uppercase;
+}
+.nav-links-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+.nav-links-container p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  letter-spacing: -0.312463px;
+
+  color: #9492a0;
+}
+.deposit-btn {
+  background: #2c2a41;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-notification-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-link-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.icon-container img {
+  margin-right: 20px;
+}

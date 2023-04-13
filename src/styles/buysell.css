@@ -1,0 +1,65 @@
+.buy-sell-section
+{
+    display: flex;
+
+}
+.Total-sportsverse-Holdings{
+    width: 316px;
+height: 175px;
+
+
+background: #232234;
+border-radius: 7px;
+margin:4px 4px 4px 4px ;
+}
+
+.Total-Wallet-balance{
+    width: 316px;
+height: 145px;
+
+
+background: #232234;
+border-radius: 7px;
+margin:10px 4px 10px 4px ;
+}
+
+.Total-Matic-balance{
+    width: 316px;
+height: 121px;
+
+
+background: #232234;
+border-radius: 7px;
+margin:4px 4px 10px 4px ;
+}
+
+.Wallet-Address{
+    width: 316px;
+height: 104px;
+
+
+background: #282739;
+border-radius: 8.9135px;
+margin:4px 4px 4px 4px ;
+}
+
+.key-section{
+    width: 719px;
+height: 61px;
+
+
+background: #282739;
+border-radius: 8.9135px;
+margin: 4px 4px 10px 4px;
+}
+
+.buy-selltoken-section{
+    width: 719px;
+height: 503px;
+
+
+background: #282739;
+border-radius: 8.9135px;
+
+margin: 4px 4px 4px 4px ;
+}
