@@ -72,23 +72,34 @@ const Sidebar = () => {
                     <p>My Tokens <span>All Tokens</span></p>
 
                     <table>
-                        <tr>
+                        <tbody>
+
+                       
+                     
                             {
                                 tokensList.map((each, index) => (
+                                    < tr key={index} className="token-container">
 
 
-                                    <div div key={index} className="token-container" >
+                                    <td >
                                         <Image src={each.tokenImg} alt="" height={40} width={40} />
-                                        <h1 style={{ marginLeft: "2rem" }}>{each.tokenDoller}</h1>
-                                        <p style={{ marginLeft: "2rem" }}>{each.rupeeValue}</p>
-                                    </div>
+                                        
+                                    </td>
+                                    <td>
+                                    <h1 style={{ marginLeft: "2rem" }}>{each.tokenDoller}</h1>
+                                    </td>
+                                    <td>
+                                    <p style={{ marginLeft: "2rem" }}>{each.rupeeValue}</p>
+                                        </td>
+                                        </tr>
 
                                 )
 
                                 )
                             }
+                             </tbody>
 
-                        </tr>
+                        
                     </table>
 
                 </>
